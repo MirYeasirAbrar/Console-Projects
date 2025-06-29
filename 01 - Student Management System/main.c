@@ -170,7 +170,7 @@ int main() {
     printf("Batch: 98(1st Shift) -- Roll: 35\n\n");
 
     int n;
-    for(;;) {
+    while(1) {
         printf("\n1: Add Student\n2: Delete Student\n3: Find by Name\n4: Find by Roll\n5: Show All Students\n6: Update Student\n7: Count Students\n8: Exit\n\nEnter a choice: ");
         scanf("%d", &n);
 
